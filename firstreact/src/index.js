@@ -8,8 +8,7 @@ import ConditionalRendering from './ConditionalRendering';
 const root = ReactDOM.createRoot(document.getElementById('venky'));
 root.render(
   <React.StrictMode>
-  
-    <ConditionalRendering/>
+   < App />
   </React.StrictMode>
 );
 

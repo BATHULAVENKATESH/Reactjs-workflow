@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { FileX, Flame, Inbox } from 'lucide-react';
+import CountForUseState from './CountForUseState';
+import PropsWithUseState from './PropsWithUseState';
+import FormwithUseStateExmple from './FormwithUseStateExmple';
 
  const age = 12;
  const work ='software developer'
@@ -34,6 +37,8 @@ import { FileX, Flame, Inbox } from 'lucide-react';
  }
 
 function App() {
+
+
 
   
 var intput = '';
@@ -70,22 +75,10 @@ const MyText = () => {
 
   return (
    <>
-
-   < Element />
    
-  <button onClick={Count} >Click me</button>
-    {Count}
-   <div>
-    <input onChange={OnSearchChange} placeholder='enter name' />
-    {intput}
-    
-    </div>  
-
-       <div>
-      <h1>Welcome to My App</h1>
-      <MyButton />
-      <MyText />
-    </div>
+   < FormwithUseStateExmple />
+   < PropsWithUseState />
+   < CountForUseState />
 
    
    </>
@@ -94,6 +87,9 @@ const MyText = () => {
 }
 
 export default App;
+
+
+
 
 
 
